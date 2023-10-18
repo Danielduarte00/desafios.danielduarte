@@ -1,0 +1,147 @@
+body{
+    background: url(image-product-desktop.jpg) no-repeat ;
+    background-position: left center;
+
+} 
+ .container1{
+    float: right;
+    margin-right: 14%;
+
+
+ }
+
+ #neymar1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(177, 174, 174, 0.519);
+  font-size: 30px;
+
+ }
+ #neymar2{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ font-size: 46px;
+ 
+ }
+
+ #neymar3{
+   color:  rgb(177, 174, 174);
+   font-size: 20px;
+   font-weight: bold;
+
+
+ }
+
+.container3{
+font-size: 66px;
+font-stretch: normal;
+color:  rgba(3, 81, 3, 0.675);;
+}
+
+
+.container4 {
+  width: 270px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgba(2, 75, 2, 0.675);
+  margin-top: -36px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#neymar4 {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  color: white;
+}
+
+#container4:hover {
+  background-color: #0c9a0c;
+  color: #ffffff;
+}
+@media (max-width: 1068px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+ margin-top: 480px ;
+ align-items: center;
+ }
+}
+
+
+
+@media (max-width: 868px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+margin-top: 490px;
+align-items: center;
+
+
+
+
+}
+}
+@media (max-width: 768px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+margin-top: 470px;
+align-items: center;
+
+
+
+
+}
+}
+@media (max-width: 668px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+margin-top: 470px;
+
+
+
+
+}
+}
+@media (max-width: 568px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+margin-top: 470px;
+
+
+
+
+}
+}
+@media (max-width: 468px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+margin-top: 500px;
+
+
+
+
+}
+}
+@media (max-width: 398px){
+  body{
+    background: url(image-product-mobile.jpg) no-repeat ;
+}
+.container2{
+margin-top: 400px;
+
+
+
+
+}
+}
