@@ -1,121 +1,94 @@
-
-
-
 body{
-    background: url(Frame\ 48095509.png) no-repeat 100% 0%;
-    background-size: auto;
-   background-color: black;
 
-  
+  background-color:  hsl(217, 54%, 11%);
+   
+}
 
+
+
+.flamengo1{
+  margin-top: 2%;
+  margin-bottom: 2% ;
+  width: 30%;
+  height: 80%;
+  background-color:hsl(216, 50%, 16%) ;
+  float: right;
+  margin-right: 35%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #000000;
 
 }
 
 
 
-  p {
-    color: white;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+.flamengo2{
+  width: 200%;
+  height: 80%;
+  border-radius: 10px;
+  margin-right: 5%;
+}
+#messi1{
+ width: 50%;
+height: 50%;
+
+
+ 
+
 
 }
-h2 {
+#messi2{
   color: white;
-  font-family:  'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
-.conteiner4{
-  margin-left: 30vh;
-  margin-right: 0;
-  width: 80%;
-
+#messi3{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
 
 
 }
-
-
-.conteiner5{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute; 
-    bottom: 0; 
+ #messi4  {
+  color:  rgba(212, 9, 9, 0.989);
 
 
 
 }
-.div1, .div2, .div3 {
-    width: 33.33%;
-    height: 100%;
+
+.flamengo3{
+  width: 100%;
+  height: 100%;
+  float: right;
+    margin-right: ; 
+   
+
+}
+@media (max-width: 578px) {
   
+  BODY{
+   margin: 0;
+
+  }
+
+  .flamengo1{
+    width: 80%;
+    height: 90%;
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #000000;
+   margin: 0;
+   
+
   
   }
-     
-
-  .conteiner3{
-    display: flex;
+  .flamengo2{
     width: 100%;
-    height: 50px;
-    text-align: center; 
-    gap: 2px;
-
-
-
-  }
-  .bottom {
-    justify-content: center;
-    background-color: #996dff;
-    height: auto;
-    color: white;
-    
+    border-radius: 15px;
+    float: right;
+    margin-right: -25%;
   }
   
-  #bottom p:hover {
-    color: white;
-    font-size: 8px;
-    font-family:  Arial, Helvetica, sans-serif ;
-    
-  
-    
-  }
-  a {
-    color:white ;
-    text-decoration: none;
-    width: 100%;
-   }
-   .conteiner5 P{
-
-     color:  rgba(255, 255, 255, 0.652);
-   }
-  
-   input[type="email"] {
-    background-color:  rgba(106, 98, 98, 0.295) ;
-    border:none;
-    border-radius: 4px;
-  }
-  input[type="email"] {
-    outline: none;
-    color:white;
-  }
-  .bottom, .conteiner3 {
-    gap: 9px;
-    border-radius: 4px;
-   }
-  
-   @media (max-width: 568px){
-    body{
-      
-    }
-    .conteiner2 ,h1, p{
-      width: 200px;
-      
-    }  
-    .div1, .div2, .div3 {
-      width: 15.33%;
-      height: 20px;
 
 
-   }
-  
-   }
+
+
+
+}
